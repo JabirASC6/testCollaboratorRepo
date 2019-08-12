@@ -1,0 +1,45 @@
+/* Nav Bar appearances */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+  }
+  
+  li {
+    justify-content: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: start;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li button {
+    background-color: #333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 3px solid #333;
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  li button:hover {
+    background-color: #111;
+    border: 3px solid #111;
+  }
+  /* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+
+  * {box-sizing:border-box}
+/* It stops now */
