@@ -4,27 +4,23 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="sketch.css">
+	<link href="style.css" rel="stylesheet" type="text/css" />
 	<title>Minority Program Connector</title>
 </head>
 
 <body>
-<div class="homePage">
 
-      <!-- navigation bar -->
-  <div class="Nav-bar">
-        <ul>
-          <li><button>Home</button></li>
-          <li><button id="search">Search</button></li>
-        </ul>
-  
-      </div>
-        <!-- end of navigation bar -->
+	<!-- Home bar button divs -->
+	<div class="homeBar">
+		<div id="logo">MPC</div>
+		<div id="home">home</div>
+		<div id="searchButton">Search</div>
 
+	</div>
+	<!-- home page -->
+	<div class="homePage">
 
-    <br><br><br>
-    
-
+		<br><br><br>
     <!-- Home page body text -->
     <div class="pageText">
         <!-- Body image div -->
@@ -36,9 +32,7 @@
 
       <div id="missionBox">
         <div id="missionState">MISSION STATEMENT</div>
-        <div id="missionStatement">At Minority Program Connector, we seek to provide guidance and connect people to activities they set out to accomplish.</div>
       </div>
-        
       <br><br>
 
       <div id="aboutUsBox">
@@ -56,26 +50,7 @@
     </div>
 
     <!-- Search page div -->
-    <div class="search">
-    <!-- this is the bar above the search results, this bar will contain a drop down menu and what filters you have activated-->
-      <div class="filterBar">
-        <div id="dropMenu">
-
-        </div>
-      </div>
-
-      <!-- search result tabs -->
-      <div class="tag">
-        <div id="locationTag"></div>
-        <div id="priceTag"></div>
-        <div id="ageTag"></div>
-      </div>
-      <div class="results">
-        <div id="campLogo"></div>
-        <!-- this is the supposed to go side by side with the campLogo -->
-        <div id="campDiscription"></div>
-      </div>
-    </div>
+ 
     <br><br>
     <footer>
       <p>Contacts:
@@ -83,13 +58,35 @@
 
     </footer>
 </div>
+<br><br>
+  <!-- the search page -->
+     <div id="search">
+    <!-- this is the bar above the search results, this bar will contain a drop down menu and what filters you have activated-->
+      <div id="filterBar">
+        <div id="dropMenu">
 
-<!-- the search page -->
-<div class="searchPage">
-  
+        </div>
+      </div>
 
+      <!-- search result tabs -->
+     
+      <br><br>
+      <div class="results">
+        <div id="campLogo">CampLogo</div>
+        <!-- this is the supposed to go side by side with the campLogo -->
+        <div id="campDescription">
 
-</div>
+          <div id="tag">
+            <div id="locationTag"></div>
+            <div id="priceTag"></div>
+            <div id="ageTag"></div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
